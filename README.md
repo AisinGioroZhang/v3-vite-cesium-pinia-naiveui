@@ -18,3 +18,5 @@ npx vite  build
 - pinia
 - naive-ui
 - ts
+
+主要采用vite-plugin-cesium插件完成cesium和vite 的集成
