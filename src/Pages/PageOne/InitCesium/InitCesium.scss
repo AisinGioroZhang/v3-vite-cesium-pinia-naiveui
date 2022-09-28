@@ -1,0 +1,48 @@
+#cesium {
+    width: 100%;
+    height: 100%;
+
+    &-container {
+      width: 100%;
+      height: 100%;
+      margin: 0 0 0 0;
+      overflow: hidden hidden;
+      background-color:#7e81e0 ;
+    }
+   
+}
+
+
+#title {
+  position: absolute;
+
+  width: 100%;
+  height: 40px;
+  top: 20px;
+  left: 0;
+
+  
+}
+
+
+#right-aside {
+  position: absolute;
+
+  width: 140px;
+  top: 10vh;
+  bottom: 21%;
+  right: 30px;
+
+  overflow: hidden hidden;
+  background: transparent;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+  width: 100%;
+  height: 10em;
+  margin: 0 0 0 0; 
+}

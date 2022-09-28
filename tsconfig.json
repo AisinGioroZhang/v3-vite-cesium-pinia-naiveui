@@ -1,0 +1,38 @@
+{
+  // 设置与编译流程相关的选项。
+  "compilerOptions": {
+    "target": "esnext",                       // 指定 ECMAScript 目标版本: 'ES3' (default), 'ES5', 'ES6'/'ES2015', 'ES2016', 'ES2017', or 'ESNEXT
+    "useDefineForClassFields": true,
+    "module": "esnext",                       // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015
+    "moduleResolution": "node",               // 选择模块解析策略： 'node' (Node.js) or 'classic' (TypeScript pre-1.6)
+    "strict": true,                           // 启用所有严格类型检查选项
+    "jsx": "preserve",                        // 指定 jsx 代码的生成: 'preserve', 'react-native', or 'react'
+    "sourceMap": true,                        // 生成相应的 '.map' 文件
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": [                                  // 指定要包含在编译中的库文件
+      "esnext",
+      "dom"
+    ],
+    "types": ["naive-ui/volar"],              // 需要包含的类型声明文件名列表
+    "baseUrl": ".",                           // 指定编译时的基础目录
+    "paths": {                                // 指定模块的查找路径
+      "@/*": ["src/*"]
+    },
+    "suppressImplicitAnyIndexErrors": true    // 移除索引错误
+  },
+  
+  //  设置需要进行编译的文件，支持路径模式匹配
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue", 
+    "src/components/bottom/components/calendar.js"
+, "src/components/bottom/components/configShow/hh.js"  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

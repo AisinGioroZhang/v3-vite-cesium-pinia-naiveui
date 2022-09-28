@@ -1,0 +1,43 @@
+{
+  "name": "vite_vue3_ts",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --fix --ext .ts,.tsx,.vue,.js,.jsx",
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {   
+    "axios": "^0.27.2",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.0.22",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@types/nprogress": "^0.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "@vicons/carbon": "^0.12.0",
+    "@vicons/fa": "^0.12.0",
+    "@vicons/fluent": "^0.12.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "cesium": "^1.97.0",
+    "eslint": "^8.11.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "naive-ui": "^2.33.0",
+    "prettier": "^2.6.0",
+    "sass": "^1.52.3",
+    "sass-loader": "^13.0.0",
+    "typescript": "^4.8.0",
+    "vfonts": "^0.0.3",
+    "vite": "^2.9.10",
+    "vite-plugin-cesium": "^1.2.22",
+    "vue-tsc": "^0.29.8"
+  }
+}
